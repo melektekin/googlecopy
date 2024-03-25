@@ -1,0 +1,274 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #202124;
+}
+
+header {
+    padding: 0 20px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    background-color: #202124;
+    color: #fff;
+    height: 48px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    padding-left:0;
+    margin-bottom:0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    height: 100%;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+
+
+.caner {
+}
+
+.caner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.caner ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.caner ul li:last-child {
+    margin-right: 0;
+}
+
+.melek {
+    margin-top: 10px;
+    border-radius: 90px;
+}
+
+.kaan {
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kaan li {
+    display: inline-block;
+    margin-right: 10px; /* İstenirse boşluk ayarlayın */
+}
+
+.kaan li:last-child {
+    margin-right: 0;
+}
+
+.malik {
+    margin-top: 10px;
+
+}
+
+.merve{
+    margin-top: 10px;
+}
+
+.jupiter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%; /* Sayfanın ortasına gelmesini sağlar */
+    top: 10%;
+    
+} 
+.yasar {
+    display: flex;
+    z-index: 3;
+    left: 20%; /* Sayfanın ortasına gelmesini sağlar */
+    top: 30%;
+    min-height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 548px;
+    
+}
+
+.yasar:hover {
+    background-color: rgb(187, 187, 187);
+    opacity: 0.1;
+}
+   
+
+.emzik {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+    padding-bottom: 80px;
+    gap: 20px;
+}
+
+.emzik img {
+    width: 272px;
+    height: 92px;
+}
+
+.model {
+    position: relative;
+    
+}
+
+.slk {
+    width: 20px;
+    height: 20px;
+    fill: grey;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+
+}
+
+.yAnw3c {
+    transform: translateY(-30px);
+    position: absolute;
+    right: 15%;
+}
+
+.goxjub {
+    transform: translateY(-30px);
+    position: absolute;
+    right: 8%;
+    top: 90%;
+}
+
+.Gdd5U {
+    transform: translateY(-30px);
+    position: absolute;
+    right: 3%;
+    top: 90%;
+}
+
+.kivir {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    padding: 0px 16px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons button:hover {
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #141414;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 20px;
+
+
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .footer {
+        justify-content: space-evenly;
+    }
+}
+
+.silver {
+    color: white;
+    align-items:  center;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
